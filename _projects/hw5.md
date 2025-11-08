@@ -28,7 +28,7 @@ Two types of interactivity are implemented:
 
 **Transformations —** Altair performs a `count()` aggregation grouped by `county` and `agency`. Counties are sorted by total count, and a derived category field ("Top10", "Other") defines the dropdown filter scope.  
 
-**Interactivity —** The combination of categorical filtering (dropdown) and highlight-based comparison (legend selection) enables multi-level exploration of how state agencies are distributed across Illinois counties, going beyond simple pan/zoom.
+**Interactivity —** The combination of categorical filtering (dropdown) and highlight-based comparison (legend selection) enables multi-level exploration of how state agencies are distributed across Illinois counties.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/hw5/chart1.json" style="width: 100%"></vegachart>
 
